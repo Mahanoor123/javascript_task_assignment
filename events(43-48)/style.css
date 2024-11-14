@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+#link {
+  margin: 1rem 0;
+  color: purple;
+}
+.mobile_phones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0;
+}
+h2 {
+  text-align: center;
+  margin: 2rem 0;
+  color: rgb(7, 53, 89);
+}
+.mobile_phones .img_1 {
+  padding: 0.2rem;
+  border: 2px solid rgb(34, 159, 255);
+  background-color: rgb(225, 225, 225);
+}
+.mobile_phones img {
+  width: 15vw;
+  height: 40vh;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.2rem;
+}
+table {
+  margin: 0 auto;
+  border: 1px solid rgb(7, 53, 89);
+  text-align: center;
+  padding: 2rem 4rem;
+  border-collapse: collapse;
+}
+thead th,
+tr td {
+  border: 1px solid rgb(7, 53, 89);
+  padding: 0.8rem 2.5rem;
+  color: rgb(7, 53, 89);
+  font-size: 1rem;
+  font-weight: 500;
+}
+table button {
+  all: unset;
+  background-color: rgb(34, 159, 255);
+  color: white;
+  padding: 0.2rem 0.8rem;
+  border-radius: 0.1rem;
+}
+.image {
+  background-color: #dadada;
+  height: 60vh;
+  width: 50vw;
+  margin: 10px auto;
+  border: 2px solid #e13;
+  padding: 0.5rem;
+}
+h3 {
+  text-align: center;
+  color: rgb(0, 82, 111);
+  margin: 1rem 0;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+
+  &:hover {
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+}
+.number_box {
+  border: 2px solid #145;
+  width: 50vw;
+  margin: 20px auto;
+}
+
+#num_para {
+  margin: 1rem ;
+}
+
+.number_box button {
+  all: unset;
+  padding: 0.5rem 2rem;
+  margin: 1rem;
+  background-color: #145;
+  color: white;
+  border-radius: 0.2rem;
+
+  &:hover{
+    background-color: rgba(17, 68, 85, 0.70);
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+}

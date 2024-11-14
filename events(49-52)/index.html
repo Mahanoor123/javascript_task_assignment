@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>events 49 - 52</title>
+</head>
+
+<body>
+
+
+    <h1>EVENTS</h1>
+
+
+    <!------------------  Task # 1 ------------------------>
+
+
+    <div class="signup_form">
+        <form id="signupForm" onsubmit="formValidate(event)">
+            <h2>Signup</h2>
+            <input type="text" placeholder="Name" id="name" required>
+            <input type="email" placeholder="Email" id="email" required>
+            <input type="password" placeholder="Password" id="password" required>
+
+            <button>Sign up</button>
+
+            <p>Already have an account? <span>login</span></p>
+        </form>
+    </div>
+
+
+    <div id="formData"></div>
+
+
+    <!------------------  Task # 2 ------------------------>
+
+
+    <div class="item">
+        <img src="./assets/event-image-2.jpg">
+        <h4>FRUITS IMPORTANCE</h4>
+        <small>Date: 2023-11-9</small>
+        <p id="item_detail">Fruits are a vital part of a healthy diet because they are a natural source of many essential nutrients and antioxidants: Vitamins and mineralsFruits are a great source of vitamin C, potassium, and folic acid <a href="JavaScript:void(0)" onclick="expandPara()">Learn more</a></p>
+        
+    </div>
+
+
+
+    <!------------------  Task # 3 ------------------------>
+
+
+    <div class="student">
+        <form id="student_form" onsubmit="addStudent(event)">
+
+            <h2>Student Form</h2>
+            <input type="number" placeholder="Enter your Id" id="studId">
+            <input type="text" placeholder="Enter your name" id="studName">
+            <input type="number" placeholder="Enter your class" id="studClass">
+
+            <button>Add Student</button>
+        </form>
+    </div>
+
+    <div class="student_database">
+    <h2>Students Table:</h2>
+    <table>
+        <thead>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Status</th>
+        </thead>
+    </table>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Events 43 - 48</title>
+</head>
+<body>
+
+    <h1>EVENTS</h1>
+
+
+
+    <!--------------------- Task # 1 ------------------------->
+
+
+    <a id="link" href="JavaScript:void(0)" onclick="(alert('Welcome to events'))">Click me for alert</a>
+
+
+
+
+    <!--------------------- Task # 2 ------------------------->
+
+
+
+
+
+    <h2>Mobile Phones Lookup:</h2>
+    <div class="mobile_phones">
+        <div class="img_1">
+            <img src="./assets/mobile1.jpeg" onmouseover="(alert('Thanks for purchasing a phone from us'))">  
+            <p>Iphone pro max</p>
+        </div>
+        <div class="img_1">
+            <img src="./assets/mobile2.jpeg" onmouseover="(alert('Thanks for purchasing a phone from us'))">  
+            <p>Samsung galaxy S5</p>
+        </div>
+        <div class="img_1">
+            <img src="./assets/mobile3.jpeg" onmouseover="(alert('Thanks for purchasing a phone from us'))">  
+            <p>Huawei X11</p>
+        </div>
+        <div class="img_1">
+            <img src="./assets/mobile4.jpeg" onmouseover="(alert('Thanks for purchasing a phone from us'))">  
+            <p>Vivo 10809</p>
+        </div>
+    </div>
+    
+
+
+    <!--------------------- Task # 3 ------------------------->
+
+
+
+
+
+    <h2>Students Table:</h2>
+    <table>
+        <thead>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Status</th>
+        </thead>
+        <tr class="row">
+            <td>0</td>
+            <td>John Doe</td>
+            <td>8th</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr class="row">
+            <td>1</td>
+            <td>Anderson</td>
+            <td>7th</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr class="row">
+            <td>2</td>
+            <td>Selena</td>
+            <td>6th</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr class="row">
+            <td>3</td>
+            <td>Joe root</td>
+            <td>10th</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr class="row">
+        <tr>
+            <td>4</td>
+            <td>John</td>
+            <td>9th</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr class="row">
+            <td>5</td>
+            <td>Mark</td>
+            <td>10th</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr class="row">
+            <td>6</td>
+            <td>Watson</td>
+            <td>9th</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr class="row">
+            <td>7</td>
+            <td>Josh</td>
+            <td>8th</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr class="row">
+            <td>8</td>
+            <td>Karl</td>
+            <td>10th</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr class="row">
+            <td>9</td>
+            <td>Kiara</td>
+            <td>7th</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+
+    </table>
+
+
+    <!--------------------- Task # 4 ------------------------->
+
+    <h3>Click picture to change</h3>
+
+    <div class="image">
+        <img src="./assets/image1.jpeg" onmouseover="(src='./assets/image2.jpeg')" onmouseout="(src='./assets/image1.jpeg')">
+    </div>
+
+
+
+    <!--------------------- Task # 5 ------------------------->
+
+
+
+
+
+    <div class="number_box">
+        <p id="num_para">The value of number is:  </p>
+
+        <button class="add" onclick="increment()">Increment num</button>  
+        <button class="sub" onclick="decrement()">Decrement num</button>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
